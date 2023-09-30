@@ -1,0 +1,28 @@
+.update-log-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(225deg, rgb(170, 116, 135) 0.00%,rgb(204, 111, 39) 100.00%);
+}
+.update-log-text {
+  width: 430px;
+  height: 94px;
+  font-size: 65px;
+  text-align: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: dashed;
+  border-width: 10px;
+}
+.update-log-text1 {
+  font-style: normal;
+  font-weight: 900;
+}
+.update-log-text3 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  padding-top: var(--dl-space-space-sevenunits);
+}
