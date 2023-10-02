@@ -26,3 +26,9 @@
   font-weight: 900;
   padding-top: var(--dl-space-space-sevenunits);
 }
+@media(max-width: 479px) {
+  .update-log-text {
+    width: 320px;
+    height: 166px;
+  }
+}
